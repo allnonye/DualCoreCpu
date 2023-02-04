@@ -6,10 +6,10 @@ This Dual Core CPU was designed and verified as a part of a Verilog/System Veril
 ## Screenshots
 
 <p float="left">
-  <img src="images/schematic1.PNG?"  />
-  <img src="images/schematic2.PNG"  />
-  <img src="images/sim1.PNG"  />
-  <img src="images/sim1.PNG"  />
+  <img src="images/schematic1.PNG?"/width=1000>
+  <img src="images/sim0.PNG"/ width=1000>
+  <img src="images/sim1.PNG"/ width=1000>
+  <img src="images/schematic2.PNG"/width=1000>
 </p>
 
 
