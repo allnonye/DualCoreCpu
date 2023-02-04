@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../final.srcs/sources_1/imports/new/AnodeDriver.v" \
+"../../../../final.srcs/sources_1/imports/new/ClockEnable.v" \
+"../../../../final.srcs/sources_1/imports/new/HexDecoder.v" \
+"../../../../final.srcs/sources_1/imports/new/MUX4.v" \
+"../../../../final.srcs/sources_1/imports/new/Sevseg.v" \
+"../../../../final.srcs/sources_1/new/alu.v" \
+"../../../../final.srcs/sources_1/new/alucontroller.v" \
+"../../../../final.srcs/sources_1/new/controller.v" \
+"../../../../final.srcs/sources_1/new/datapath2.v" \
+"../../../../final.srcs/sources_1/new/extememory.v" \
+"../../../../final.srcs/sources_1/new/ircache.v" \
+"../../../../final.srcs/sources_1/new/mips.v" \
+"../../../../final.srcs/sources_1/new/mux21.v" \
+"../../../../final.srcs/sources_1/new/mux41.v" \
+"../../../../final.srcs/sources_1/new/pccontroller.v" \
+"../../../../final.srcs/sources_1/new/regfile.v" \
+"../../../../final.srcs/sources_1/new/systembus.v" \
+"../../../../final.srcs/sources_1/new/topmodule.v" \
+
+sv xil_defaultlib  \
+"../../../../final.srcs/sim_1/new/topmodule_tb2.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
